@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TraceBloom | Product Journey Transparency</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="TraceBloom home"><span class="brand-mark">TB</span><span>TraceBloom</span></a>
+    <nav>
+      <a href="#journey">Journey</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">Premium product transparency</p>
+        <h1>From Indian farms to your doorstep.</h1>
+        <p>TraceBloom turns sourcing, production, quality checks, packing, and delivery into a beautiful customer story for premium brands.</p>
+        <div class="trace-panel" id="lookup">
+          <label for="traceCode">Enter product trace code</label>
+          <div class="lookup-row"><input id="traceCode" placeholder="Try TB-TEA-001" /><button id="lookupBtn">Discover Journey</button></div>
+          <p class="hint">Sample codes: TB-TEA-001, TB-SAF-002, TB-COT-003, TB-SPC-004</p>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
+        <div class="product-card"><span>Verified batch</span><strong id="heroBatch">TB-TEA-001</strong><small id="heroProduct">Premium Organic Assam Tea</small></div>
+      </div>
+    </section>
+
+    <section class="section origin-section" id="origin">
+      <div class="section-head"><p class="eyebrow">PAN India origin map</p><h2>Regional sourcing, clearly explained.</h2><p>Hover markers or load a code to preview product-specific origin details.</p></div>
+      <div class="origin-grid">
+        <div class="map-card" id="mapCard"><div class="india-shape">INDIA</div><div id="markers"></div></div>
+        <aside class="origin-details"><h3 id="originTitle">Dibrugarh, Assam</h3><p id="originText">Hand-picked tea leaves sourced from partner gardens, then routed through certified processing and logistics hubs.</p><div class="mini-stats"><span>Ethical sourcing</span><span>Verified QA</span><span>Plastic-neutral packs</span></div></aside>
+      </div>
+    </section>
+
+    <section class="section journey-section" id="journey">
+      <div class="section-head"><p class="eyebrow">Five-stage journey timeline</p><h2 id="journeyTitle">Premium Organic Assam Tea</h2><p id="journeySub">Current status: Delivered to Mumbai Hub</p></div>
+      <div class="timeline" id="timeline"></div>
+      <div class="stage-detail" id="stageDetail"></div>
+    </section>
+
+    <section class="section cards-section">
+      <div class="info-card"><span>01</span><h3>Careful handling</h3><p>Every journey step explains how the item is handled before customer delivery.</p></div>
+      <div class="info-card"><span>02</span><h3>Quality verification</h3><p>Mock certification notes make product proof simple and customer-friendly.</p></div>
+      <div class="info-card"><span>03</span><h3>Sustainability markers</h3><p>Showcase organic sourcing, plastic-neutral packing, and fair-trade processes.</p></div>
+    </section>
+
+    <section class="section showcase" id="gallery">
+      <div class="section-head"><p class="eyebrow">Product showcase</p><h2>Beautiful proof customers can trust.</h2></div>
+      <div class="gallery-grid">
+        <article><div class="photo tea"></div><h3>Tea & spices</h3><p>Origin-focused cards for premium food products.</p></article>
+        <article><div class="photo textile"></div><h3>Textiles</h3><p>Explain weave, dye, inspection, and delivery confidence.</p></article>
+        <article><div class="photo craft"></div><h3>Craft goods</h3><p>Highlight artisan location, fragile packing, and QA checks.</p></article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div><p class="eyebrow">Contact</p><h2>Build a traceable brand story.</h2><p>Use this mockup as a starting point for premium transparency experiences.</p></div>
+      <form id="contactForm"><input required placeholder="Your name" /><input required type="email" placeholder="Email address" /><textarea required placeholder="Message"></textarea><button>Submit inquiry</button><p class="toast" id="toast"></p></form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

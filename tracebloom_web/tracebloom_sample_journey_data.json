@@ -1,0 +1,140 @@
+{
+  "records": [
+    {
+      "product_name": "Premium Organic Assam Tea",
+      "origin": "Dibrugarh, Assam, India",
+      "batch_code": "TB-TEA-001",
+      "current_stage": "Delivery",
+      "quality_status": "Certified Premium - ISO 22000",
+      "delivery_status": "Delivered to Mumbai Hub",
+      "route": "Dibrugarh → Guwahati → Kolkata → Mumbai",
+      "coordinates": { "x": 75, "y": 30 },
+      "stages": [
+        {"name":"Origin","date":"12 Jan 2026","location":"Dibrugarh, Assam","detail":"Hand-picked leaves from partner tea gardens."},
+        {"name":"Production","date":"14 Jan 2026","location":"Guwahati Processing Unit","detail":"Withered, rolled, oxidized, and dried in controlled conditions."},
+        {"name":"Quality Check","date":"16 Jan 2026","location":"Kolkata QA Lab","detail":"Aroma, moisture, and residue checks cleared."},
+        {"name":"Packaging","date":"18 Jan 2026","location":"Kolkata Pack House","detail":"Packed in recyclable aroma-lock pouches."},
+        {"name":"Delivery","date":"21 Jan 2026","location":"Mumbai Hub","detail":"Delivered to premium retail distribution hub."}
+      ]
+    },
+    {
+      "product_name": "Artisanal Kashmiri Saffron",
+      "origin": "Pampore, Jammu & Kashmir, India",
+      "batch_code": "TB-SAF-002",
+      "current_stage": "Quality Check",
+      "quality_status": "Purity Grade 1 Passed",
+      "delivery_status": "In transit to Delhi Sorting Facility",
+      "route": "Pampore → Srinagar → Delhi",
+      "coordinates": { "x": 31, "y": 13 },
+      "stages": [
+        {"name":"Origin","date":"03 Feb 2026","location":"Pampore, J&K","detail":"Saffron strands sourced from registered growers."},
+        {"name":"Production","date":"04 Feb 2026","location":"Srinagar Drying Room","detail":"Low-temperature drying preserved color and aroma."},
+        {"name":"Quality Check","date":"06 Feb 2026","location":"Delhi QA Lab","detail":"Purity and color-strength validation completed."},
+        {"name":"Packaging","date":"Pending","location":"Delhi Pack House","detail":"Glass vial packing scheduled."},
+        {"name":"Delivery","date":"Pending","location":"Bengaluru Destination Hub","detail":"Shipment will move after final packing."}
+      ]
+    },
+    {
+      "product_name": "Organic Cotton Home Linen",
+      "origin": "Kutch, Gujarat, India",
+      "batch_code": "TB-COT-003",
+      "current_stage": "Packaging",
+      "quality_status": "Azo-free dye check passed",
+      "delivery_status": "Packed for Pune dispatch",
+      "route": "Kutch → Ahmedabad → Pune",
+      "coordinates": { "x": 31, "y": 45 },
+      "stages": [
+        {"name":"Origin","date":"10 Mar 2026","location":"Kutch, Gujarat","detail":"Organic cotton procured from cooperative farms."},
+        {"name":"Production","date":"14 Mar 2026","location":"Ahmedabad Textile Unit","detail":"Spun, woven, and finished with low-impact dyes."},
+        {"name":"Quality Check","date":"17 Mar 2026","location":"Ahmedabad QA Desk","detail":"Shrinkage and color-fastness tests passed."},
+        {"name":"Packaging","date":"19 Mar 2026","location":"Ahmedabad Pack House","detail":"Folded in compostable sleeves."},
+        {"name":"Delivery","date":"Pending","location":"Pune Hub","detail":"Scheduled for surface movement."}
+      ]
+    },
+    {
+      "product_name": "Kerala Spice Gift Box",
+      "origin": "Idukki, Kerala, India",
+      "batch_code": "TB-SPC-004",
+      "current_stage": "Production",
+      "quality_status": "Batch cleaning in progress",
+      "delivery_status": "Awaiting QA release",
+      "route": "Idukki → Kochi → Hyderabad",
+      "coordinates": { "x": 43, "y": 82 },
+      "stages": [
+        {"name":"Origin","date":"08 Apr 2026","location":"Idukki, Kerala","detail":"Cardamom, pepper, and clove lots selected."},
+        {"name":"Production","date":"10 Apr 2026","location":"Kochi Processing Centre","detail":"Sorting, cleaning, and small-batch blending underway."},
+        {"name":"Quality Check","date":"Pending","location":"Kochi QA Lab","detail":"Oil-content and purity checks scheduled."},
+        {"name":"Packaging","date":"Pending","location":"Kochi Pack House","detail":"Gift box assembly pending QA release."},
+        {"name":"Delivery","date":"Pending","location":"Hyderabad Hub","detail":"Delivery route planned."}
+      ]
+    },
+    {
+      "product_name": "Himachal Wildflower Honey",
+      "origin": "Kangra, Himachal Pradesh, India",
+      "batch_code": "TB-HNY-005",
+      "current_stage": "Delivery",
+      "quality_status": "NMR authenticity check passed",
+      "delivery_status": "Out for delivery in Chandigarh",
+      "route": "Kangra → Chandigarh",
+      "coordinates": { "x": 38, "y": 20 },
+      "stages": [
+        {"name":"Origin","date":"21 May 2026","location":"Kangra, HP","detail":"Honey collected from partner apiaries."},
+        {"name":"Production","date":"22 May 2026","location":"Kangra Filtering Unit","detail":"Cold filtered without heat damage."},
+        {"name":"Quality Check","date":"24 May 2026","location":"Chandigarh QA Lab","detail":"Moisture and authenticity checks passed."},
+        {"name":"Packaging","date":"25 May 2026","location":"Chandigarh Pack House","detail":"Packed in glass jars with tamper seal."},
+        {"name":"Delivery","date":"26 May 2026","location":"Chandigarh","detail":"Out for final customer handoff."}
+      ]
+    },
+    {
+      "product_name": "Coorg Single-Origin Coffee",
+      "origin": "Kodagu, Karnataka, India",
+      "batch_code": "TB-COF-006",
+      "current_stage": "Packaging",
+      "quality_status": "Roast profile approved",
+      "delivery_status": "Packed for Chennai shipment",
+      "route": "Kodagu → Bengaluru → Chennai",
+      "coordinates": { "x": 41, "y": 74 },
+      "stages": [
+        {"name":"Origin","date":"11 Jun 2026","location":"Kodagu, Karnataka","detail":"Arabica cherries harvested from shade-grown estate."},
+        {"name":"Production","date":"14 Jun 2026","location":"Bengaluru Roastery","detail":"Medium roast completed in small batches."},
+        {"name":"Quality Check","date":"15 Jun 2026","location":"Bengaluru Cupping Room","detail":"Cupping score and roast profile approved."},
+        {"name":"Packaging","date":"16 Jun 2026","location":"Bengaluru Pack House","detail":"Nitrogen-flushed valve bags sealed."},
+        {"name":"Delivery","date":"Pending","location":"Chennai Hub","detail":"Dispatch waiting for pickup scan."}
+      ]
+    },
+    {
+      "product_name": "Rajasthan Blue Pottery Bowl",
+      "origin": "Jaipur, Rajasthan, India",
+      "batch_code": "TB-ART-007",
+      "current_stage": "Quality Check",
+      "quality_status": "Glaze inspection underway",
+      "delivery_status": "Awaiting protective packing",
+      "route": "Jaipur → Delhi → Kolkata",
+      "coordinates": { "x": 34, "y": 36 },
+      "stages": [
+        {"name":"Origin","date":"09 Jul 2026","location":"Jaipur, Rajasthan","detail":"Handcrafted by artisan cluster."},
+        {"name":"Production","date":"15 Jul 2026","location":"Jaipur Studio Kiln","detail":"Painted and kiln-fired in small lots."},
+        {"name":"Quality Check","date":"17 Jul 2026","location":"Jaipur QC Table","detail":"Surface, glaze, and shape inspection underway."},
+        {"name":"Packaging","date":"Pending","location":"Delhi Fragile Pack Unit","detail":"Honeycomb paper and double-box packing scheduled."},
+        {"name":"Delivery","date":"Pending","location":"Kolkata Hub","detail":"Fragile shipment route reserved."}
+      ]
+    },
+    {
+      "product_name": "Tamil Nadu Handloom Silk Stole",
+      "origin": "Kanchipuram, Tamil Nadu, India",
+      "batch_code": "TB-SLK-008",
+      "current_stage": "Delivery",
+      "quality_status": "Weave and zari check passed",
+      "delivery_status": "Delivered to Bengaluru flagship store",
+      "route": "Kanchipuram → Chennai → Bengaluru",
+      "coordinates": { "x": 45, "y": 83 },
+      "stages": [
+        {"name":"Origin","date":"02 Aug 2026","location":"Kanchipuram, TN","detail":"Silk yarn sourced from verified weaving families."},
+        {"name":"Production","date":"09 Aug 2026","location":"Kanchipuram Loom House","detail":"Handloom weaving completed."},
+        {"name":"Quality Check","date":"11 Aug 2026","location":"Chennai Textile QA","detail":"Weave consistency and zari finish approved."},
+        {"name":"Packaging","date":"12 Aug 2026","location":"Chennai Pack House","detail":"Packed in premium archival sleeve."},
+        {"name":"Delivery","date":"14 Aug 2026","location":"Bengaluru Store","detail":"Delivered to flagship store inventory."}
+      ]
+    }
+  ]
+}

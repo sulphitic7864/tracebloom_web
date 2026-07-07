@@ -1,0 +1,17 @@
+TraceBloom handoff notes
+
+Updated timeline: the journey section now uses one connected 5-stage visual timeline on desktop and a vertical connected timeline on mobile.
+
+Files included:
+- tracebloom_web_build.zip: deployable static website files
+- tracebloom_web_source.zip: editable source files
+- tracebloom_sample_journey_data.json: 8 fake product journey examples
+- tracebloom_walkthrough.pdf: short usage/design guide
+- tracebloom_handoff_notes.txt: these notes
+
+Setup:
+1. Extract tracebloom_web_build.zip.
+2. Open index.html in a browser, or serve with any static server.
+3. Try sample codes: TB-TEA-001, TB-SAF-002, TB-COT-003, TB-SPC-004.
+
+No backend, GPS service, or external dependency is required.
