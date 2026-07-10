@@ -35,7 +35,7 @@ function initRealMap(){
  indiaMap=L.map('indiaRealMap',{
    zoomControl:true,
    scrollWheelZoom:false,
-   minZoom:4,
+   minZoom:5,
    maxZoom:9,
    zoomSnap:0.25,
    zoomDelta:0.5,
